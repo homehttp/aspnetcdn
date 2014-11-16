@@ -4,6 +4,7 @@ using System.Web;
 
 public class MyGlobalApplication : aspnetcdn.AspNetApplication
 {
+
 	/// override the CreateWebsiteRequest for executing custom website redirecting logic
 	protected override aspnetcdn.WebsiteRequest CreateWebsiteRequest()
 	{
