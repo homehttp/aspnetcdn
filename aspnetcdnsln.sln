@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aspnetcdn", "aspnetcdn\aspnetcdn.csproj", "{CEA8BC28-6D42-4A35-921E-29E07BA80C36}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "aspnetcdn-web", "http://localhost:32842", "{8F47F929-476C-416F-8448-3901D6881C3E}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv2.0"
+		ProjectReferences = "{cea8bc28-6d42-4a35-921e-29e07ba80c36}|aspnetcdn.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/aspnetcdn-web"
+		Debug.AspNetCompiler.PhysicalPath = "aspnetcdn-web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\aspnetcdn-web\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/aspnetcdn-web"
+		Release.AspNetCompiler.PhysicalPath = "aspnetcdn-web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\aspnetcdn-web\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "aspnetcdn-web\"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E0983F83-18C3-49ED-A743-7E43E48C51BE}"
+	ProjectSection(SolutionItems) = preProject
+		License.txt = License.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEA8BC28-6D42-4A35-921E-29E07BA80C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA8BC28-6D42-4A35-921E-29E07BA80C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA8BC28-6D42-4A35-921E-29E07BA80C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA8BC28-6D42-4A35-921E-29E07BA80C36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F47F929-476C-416F-8448-3901D6881C3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F47F929-476C-416F-8448-3901D6881C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F47F929-476C-416F-8448-3901D6881C3E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F47F929-476C-416F-8448-3901D6881C3E}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

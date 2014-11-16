@@ -1,0 +1,5 @@
+d:\GXProjects\aspnetcdnsln\aspnetcdn\bin\Debug\aspnetcdn.dll
+d:\GXProjects\aspnetcdnsln\aspnetcdn\bin\Debug\aspnetcdn.pdb
+d:\GXProjects\aspnetcdnsln\aspnetcdn\obj\Debug\aspnetcdn.dll
+d:\GXProjects\aspnetcdnsln\aspnetcdn\obj\Debug\aspnetcdn.pdb
+d:\GXProjects\aspnetcdnsln\aspnetcdn\obj\Debug\aspnetcdn.csprojResolveAssemblyReference.cache
